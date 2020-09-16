@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ratingContainer {
+    display: inline-flex;
+    background-color: hsl(300, 24%, 96%);
+    padding: 1rem 3rem 1rem .5rem;
+    align-items: center;
+}
+
+.ratingContainer .key {
+    height: 1rem;
+    margin-right: .5rem;
+}
+
+.ratingContainer h6 {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
