@@ -76,4 +76,8 @@
     .testimonyContainer .userInfoSection #userImage {
         width: 4.5rem
     }
+
+    .testimonyContainer .userInfoSection #userInfo {
+        margin: auto 0 auto 1.5rem;
+    }
 }
