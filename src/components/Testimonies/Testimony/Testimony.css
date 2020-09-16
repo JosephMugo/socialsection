@@ -11,7 +11,19 @@
     color: white;
     padding: 2.5rem;
     border-radius: 8px;
-    max-width: 25rem;
+}
+
+.testimonyContainer:nth-child(1) {
+    margin-bottom: 12%;
+}
+
+.testimonyContainer:nth-child(2) {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.testimonyContainer:nth-child(3) {
+    margin-top: 12%;
 }
 
 .testimonyContainer .userInfoSection {
@@ -35,6 +47,7 @@
 }
 
 .testimonyContainer .userInfoSection #userInfo #type {
+    font-weight: 200;
     color: hsl(333, 80%, 67%);
     padding-top: .2rem;
 }
