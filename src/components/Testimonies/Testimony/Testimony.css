@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.testimonyContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #511F50;
+    color: white;
+    padding: 2.5rem;
+    border-radius: 8px;
+    max-width: 25rem;
+}
+
+.testimonyContainer .userInfoSection {
+    display: flex;
+}
+
+.testimonyContainer .userInfoSection #userInfo {
+    margin-left: 2rem;
+}
+
+.testimonyContainer .userInfoSection #userImage {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.testimonyContainer .userInfoSection #userInfo h5 {
+   font-size: 1rem;
+   font-weight: 500;
+   margin: 0;
+   padding: 0;
+}
+
+.testimonyContainer .userInfoSection #userInfo #type {
+    color: #974A80;
+    padding-top: .2rem;
+}
+
+.testimonyContainer .description {
+    font-weight: 200;
+    margin-top: 2rem;
+    color: rgb(216, 216, 216);
+}

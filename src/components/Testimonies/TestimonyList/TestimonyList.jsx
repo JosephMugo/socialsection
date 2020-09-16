@@ -15,3 +15,23 @@
 //     Verified Buyer
 //     "Put an order with this company and can only praise them for the very high
 //     standard. Will definitely use them again and recommend them to everyone!"
+import React from 'react';
+import userImg from '../../../images/image-colton.jpg'
+import Testimony from '../Testimony/Testimony';
+
+const user = {
+    image: userImg,
+    name: "Colton Smith",
+    type: "Verified Buyer",
+    description: "We needed the same printed design as the one we had ordered a week prior.Not only did they find the original order, but we also received it in time.Excellent!"
+}
+
+const TestimonyList = () => {
+    return (
+        <div class="testimonyListContainer">
+            <Testimony user={user} />
+        </div>
+    )
+}
+
+export default TestimonyList;
