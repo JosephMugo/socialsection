@@ -5,7 +5,7 @@ import star from '../../../images/icon-star.svg';
 const Rating = (props) => {
     const startRating = []
     for (var a = 0; a < props.rating.amount; a++) {
-        startRating.push(<img class='key' key={`star${a}`} alt='rating' src={star} />)
+        startRating.push(<img className='key' key={`star${a}`} alt='rating' src={star} />)
     }
     return (
         <div className="ratingContainer">

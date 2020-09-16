@@ -5,6 +5,7 @@
 //     Rated 5 Stars in BestTech
 import React from 'react';
 import Rating from '../Rating/Rating';
+import './RatingsList.css';
 
 const rating = {
     amount: 5,
@@ -14,7 +15,9 @@ const rating = {
 const RatingsList = (props) => {
     return (
         <div className="ratingListContainer">
-            <Rating key={rating.author} rating={rating} />
+            <Rating key='1' rating={rating} />
+            <Rating key='2' rating={rating} />
+            <Rating key='3' rating={rating} />
         </div>
     )
 }

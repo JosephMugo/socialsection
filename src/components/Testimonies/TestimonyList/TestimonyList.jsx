@@ -18,6 +18,7 @@
 import React from 'react';
 import userImg from '../../../images/image-colton.jpg'
 import Testimony from '../Testimony/Testimony';
+import './TestimonyList.css';
 
 const user = {
     image: userImg,
@@ -28,8 +29,10 @@ const user = {
 
 const TestimonyList = () => {
     return (
-        <div class="testimonyListContainer">
-            <Testimony user={user} />
+        <div className="testimonyListContainer">
+            <Testimony key='1' user={user} />
+            <Testimony key='2' user={user} />
+            <Testimony key='3' user={user} />
         </div>
     )
 }

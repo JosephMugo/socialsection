@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10%;
+}
+
+.sectionContainer .firstSection {
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    column-gap: 12rem;
+    flex: 1;
+}
+
+.sectionContainer .firstSection .headerContainer {
+    
+}
+
+.sectionContainer .firstSection .ratingListContainer {
+    
+}
+
+.sectionContainer .secondSection {
+    flex: 1;
+}
+

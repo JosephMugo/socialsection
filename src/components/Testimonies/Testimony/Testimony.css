@@ -35,7 +35,7 @@
 }
 
 .testimonyContainer .userInfoSection #userInfo #type {
-    color: #974A80;
+    color: hsl(333, 80%, 67%);
     padding-top: .2rem;
 }
 
