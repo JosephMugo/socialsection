@@ -9,12 +9,16 @@ const Rating = (props) => {
     }
     return (
         <div className="ratingContainer">
-            {
-                startRating.map((rating) => (
-                    rating
-                ))
-            }
-            <h6>Rated {props.rating.amount} starts in {props.rating.author}</h6>
+            <div className="stars">
+                {
+                    startRating.map((rating) => (
+                        rating
+                    ))
+                }
+            </div>
+            <div className="description">
+                <h6>Rated {props.rating.amount} starts in {props.rating.author}</h6>
+            </div>
         </div>
     )
 }

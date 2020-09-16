@@ -3,3 +3,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1.8rem;
 }
+
+@media only screen and (max-width: 1365px) {
+    .testimonyListContainer {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}

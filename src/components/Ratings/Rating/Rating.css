@@ -1,12 +1,15 @@
 .ratingContainer {
     display: inline-flex;
+    justify-content: center;
     background-color: hsl(300, 24%, 96%);
     padding: 1rem 3rem 1rem 1rem;
     align-items: center;
     border-radius: 8px;
 }
 
-.ratingContainer .key {
+
+
+.ratingContainer .stars .key {
     height: 1rem;
     margin-right: .5rem;
 }
@@ -17,4 +20,16 @@
     margin: 0;
     margin-left: 0;
 
+}
+
+
+@media only screen and (max-width: 1365px) { 
+    .ratingContainer {
+        flex-direction: column;
+        padding: 1rem 0rem;
+    }
+
+    .ratingContainer .description {
+        margin-top: 4%;
+    }
 }

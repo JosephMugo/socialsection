@@ -31,3 +31,13 @@
     margin-top: 5%;
 }
 
+@media only screen and (max-width: 1365px) {
+    .sectionContainer .firstSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionContainer .secondSection {
+        margin-top: 10%;
+    }
+}

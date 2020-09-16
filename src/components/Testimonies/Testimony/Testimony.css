@@ -57,3 +57,19 @@
     margin-top: 2rem;
     color: rgb(240, 240, 240);
 }
+
+@media only screen and (max-width: 1365px) {
+    .testimonyContainer:nth-child(1) {
+        margin: 0;
+    }
+
+    .testimonyContainer:nth-child(2) {
+        margin: 0;
+        margin-top: 5%;
+    }
+
+    .testimonyContainer:nth-child(3) {
+        margin: 0;
+        margin-top: 5%;
+    }
+}
